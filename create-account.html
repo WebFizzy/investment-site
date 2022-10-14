@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Create account</title>
+    <link rel="stylesheet" href="wiz-respnsive styles/res-create.css">
+
+    <script src="https://kit.fontawesome.com/88f8f09358.js" 
+    crossorigin="anonymous"></script>
+  </head>
+  <body>
+    
+    <section class="header">
+      <div class="topnav">
+        <a id="active" href="index.html">Logo </a>
+        <div id="myLinks">
+          <a href="index.html">Home</a>
+          <a href="about us.html">About us</a>
+          <a href="Our service.html">Services</a>
+          <a href="investment-plan.html">Investment-plan</a>
+          <a href="investment-plan.html">FAQs</a>
+          <a id="login" href="sign-in.html">Login</a>
+          <a id="create" href="sign-in.html">Create account</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </section>    
+    
+    <script>
+      function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+    </script>
+
+    <section class="creat">
+      <div class="creat-form">
+        <div class="send-form">
+          <p class="sign-up">Sign up</p>
+          <p class="ok-sign">Create your account</p>
+          <hr>
+
+          <div class="enter-name">
+           <label id="lab" for="Password">Username*</label>
+              <input id="enterr" type="text" placeholder="userame*">
+          </div>
+
+          <label id="lab" for="Password">Email*</label>
+          <div class="enter-email">
+            <input id="enterr" type="Email" placeholder="Enter your email*">
+          </div>
+
+          <label id="lab" for="Password">Password*</label>
+          <div class="enter-subj">
+            <input id="enterr" type="text" placeholder="Enter your password*">
+          </div>
+
+          <label id="lab" for="Password">Password Confirmation</label>
+          <input type="checkbox" id="check" onclick="myFunction()">show password
+          <div class="box1">
+            <input id="enterr" type="password" placeholder="Confirm Password"> 
+          </div>
+
+          <label id="lab" for="Password">Referral Username(optional)</label>
+          <div class="box1">
+            <input id="enterr" type="password" placeholder="Enter referrer userame"> 
+          </div>
+
+          <input type="checkbox" style="margin-left: 22px; margin-top: 10px;
+          ">I agree with the terms and conditon
+
+          <div>
+          <BUtton><a href="#" style="text-decoration: none; color: white;">Sign up</a></BUtton>
+        </div>
+          <p class="already">Already have an account? <a href="sign-in.html" style="text-decoration: none;color: #037dff; font-size: 15px;">Sign in instead</a></p>
+        </div>
+    </section>
+
+    <section class="section12">
+      <div class="bottn">
+        <div class="global">
+         <p class="mon">BIG MONEY</p>
+         <p id="mon"> We offer Global commodity brokerage services, managed futures consultation, direct access trading, and trading system execution services to individuals, corporations and industry professionals.</p>
+        </div>
+        <div class="comp">
+         <p class="mon">COMPANY </p>
+         <p id="mon"><a href="index.html">Home </a> <br>
+          <a href="about us.html">About Us</a>
+             <br>
+             <a href="investment-plan.html">Investment Approach</a>
+            </p> 
+        </div>
+        <div class="legal">
+         <p class="mon">LEGAL</p>
+         <p id="mon"><a href="legal.html">Legal Info</a><br>
+          <a href="terms&condition.html">Privacy Policy </a><br>
+          <a href="terms&condition.html">Terms and Agreements</a>
+          <br>      
+          <a href="contacts.html">Report Abuse</a>  
+          </p>
+        </div>
+        <div class="contact">
+         <p class="mon">CONTACT US</p>
+         <p id="mon2"> <i id="icn" class="fas fa-map-marker-alt"></i> Manchester, United Kingdom
+         <i id="icn" class='fas fa-phone'></i> +44 (741) 837-4037 <br>
+         <i id="icn" class="far fa-comment-alt"></i> info@bigmoney.com. </p>
+        </div> 
+       </div>
+       <br>
+       <hr>
+       <div class="copyR">
+       <p class="copyright">Copyright &#174;2022 BIG MONEY</p>
+       </div>
+    </section>
+
+  </body>
+</html>
