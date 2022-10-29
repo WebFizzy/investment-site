@@ -152,6 +152,7 @@ body {
     font-size: 22px;
     background: linear-gradient(to right,#16161a, rgb(99, 98, 98));
     color: white;
+    margin-top: 4rem;
     padding: 30px;
   }
   .h3n {
